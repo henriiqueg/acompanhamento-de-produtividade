@@ -1,0 +1,47 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "extends": [
+    "plugin:react/recommended",
+    "airbnb",
+    "plugin:@typescript-eslint/recommended",
+    "prettier/@typescript-eslint",
+    "plugin:prettier/recommended",
+    "prettier/react"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "plugins": [
+    "react",
+    "@typescript-eslint",
+    "prettier",
+    "react-hooks"
+  ],
+  "rules": {
+    "prettier/prettier": "error",
+    "react/prop-types": "off",
+    "react-hooks/rules-of-hooks": "error",
+    "linebreak-style": "off",
+    "react/jsx-props-no-spreading": "off",
+    "import/prefer-default-export": "off",
+    "@typescript-eslint/interface-name-prefix": "off",
+    "@typescript-eslint/ban-ts-ignore": "off",
+    // needed for NextJS's jsx without react import
+    "react/react-in-jsx-scope": "off",
+    "react/jsx-filename-extension": [0, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }]
+  }
+}
