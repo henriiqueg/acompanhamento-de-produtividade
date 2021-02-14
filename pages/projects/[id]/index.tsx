@@ -20,7 +20,8 @@ const Project: NextPage = () => {
 
   return (
     <Page pageTitle={title}>
-      <div className="w-screen h-screen bg-home bg-center bg-cover bg-no-repeat">
+      <div className="w-screen h-screen bg-project bg-center bg-cover bg-no-repeat">
+        {/* TODO create components for buttons */}
         <main className="w-full lg:container px-28 py-16 flex flex-col items-start">
           <Link href="/" passHref>
             <a className="text-white">{'< '}Projetos</a>
