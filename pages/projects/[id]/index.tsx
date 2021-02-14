@@ -23,7 +23,7 @@ const Project: NextPage = () => {
       <div className="w-screen h-screen bg-home bg-center bg-cover bg-no-repeat">
         <main className="w-full lg:container px-28 py-16 flex flex-col items-start">
           <Link href="/" passHref>
-            <a className="text-white">{'< '}Dashboard</a>
+            <a className="text-white">{'< '}Projetos</a>
           </Link>
           <h1 className="text-5xl font-bold text-white leading-normal max-w-lg">
             {title}
