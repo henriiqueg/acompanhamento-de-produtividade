@@ -1,7 +1,8 @@
 import { NextPage } from 'next';
-import Link from 'next/link';
 
 import Page from 'components/Page';
+import ProjectCard from 'components/ProjectCard';
+import AddProject from 'components/AddProject';
 
 const Dashboard: NextPage = () => {
   return (
@@ -16,32 +17,9 @@ const Dashboard: NextPage = () => {
           <h3 className="mt-16 font-semibold text-2xl text-white">Projetos</h3>
 
           <div className="mt-12 flex items-center gap-12 justify-items-start w-auto">
-            <div
-              className="w-36 h-36 bg-white rounded-3xl
-                        flex items-stretch justify-center font-semibold
-                        text-xl text-center italic"
-            >
-              <Link as="/projects/cidade-legal" href="/projects/[id]" passHref>
-                <a className="flex items-center justify-center p-6">
-                  Cidade Legal
-                </a>
-              </Link>
-            </div>
-            <div
-              className="w-36 h-36 bg-white rounded-3xl
-                        flex items-stretch justify-center font-semibold
-                        text-xl text-center italic"
-            >
-              <Link
-                as="/projects/portal-do-morador"
-                href="/projects/[id]"
-                passHref
-              >
-                <a className="flex items-center justify-center p-6">
-                  Portal do Morador
-                </a>
-              </Link>
-            </div>
+            <ProjectCard id="cidade-legal" title="Cidade Legal" />
+            <ProjectCard id="portal-do-morador" title="Portal do Morador" />
+            <AddProject />
           </div>
         </main>
       </div>
