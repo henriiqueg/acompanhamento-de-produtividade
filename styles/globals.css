@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body, button {
+  font-family: 'Montserrat', 'Open Sans', 'Segoe UI', -apple-system, 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+}

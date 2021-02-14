@@ -8,4 +8,12 @@ module.exports = {
     extend: {},
   },
   plugins: [],
+  theme: {
+    extend: {
+      backgroundImage: theme => ({
+       'home': "url('/img/home-background.png')",
+       'project': "url('/img/project-background.png')",
+      }),
+    }
+  }
 }
