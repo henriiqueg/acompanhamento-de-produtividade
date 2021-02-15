@@ -50,13 +50,13 @@ npm install
 Then, to run locally, you need to run
 
 ```
-yarn start
+yarn dev
 ```
 
 _or_
 
 ```
-npm run start
+npm run dev
 ```
 
 ## ⛏️ Built Using <a name = "built_using"></a>
