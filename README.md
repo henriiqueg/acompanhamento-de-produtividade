@@ -1,23 +1,77 @@
-# Next.js + Tailwind CSS Example
+<p align="center">
+  <a href="" rel="noopener">
+ <img width=150px height=100px src="https://avatars.githubusercontent.com/u/68288528?s=200&v=4" alt="Loomi Logo"></a>
+</p>
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) (v2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+<h3 align="center">Acompanhamento de Produtividade</h3>
 
-## Deploy your own
+<div align="center">
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+  [![Status](https://img.shields.io/badge/status-active-success.svg)]()
+  [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+</div>
 
-## How to use
+---
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+<p align="center"> 📊 Plataforma para acompanhamento de produtividade de times e projetos na Loomi.
+    <br>
+</p>
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
+<p>Acesse: <a href="https://acompanhamento-de-produtividade.vercel.app/" target="_blank">Acompanhamento de Produtividade Loomi</a></p>
+
+## 📝 Table of Contents
+- [About](#about)
+- [Getting Started](#getting_started)
+- [Built Using](#built_using)
+- [Authors](#authors)
+- [Acknowledgments](#acknowledgement)
+
+## 🧐 About <a name = "about"></a>
+Plataforma desenvolvida para fazer o acompanhamento de produtividade dos projetos na Loomi.
+
+## 🏁 Getting Started <a name = "getting_started"></a>
+
+### Installing
+After clonning the branch, you need to install dependencies.
+
+To install dependencies, run
+
+```
+yarn
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+_or_
 
-<!-- TODO change README -->
+```
+npm install
+```
+
+Then, to run locally, you need to run
+
+```
+yarn start
+```
+
+_or_
+
+```
+npm run start
+```
+
+## ⛏️ Built Using <a name = "built_using"></a>
+
+- [Next.js](nextjs.org/) - Next.js
+- [Tailwind CSS](tailwindcss.com/) - Tailwind CSS _for styling_
+- [Chakra UI](https://chakra-ui.com/) - Chakra UI _for components_
+- [Formik](formik.org/) - Formik _for forms_
+- [React Datepicker](reactdatepicker.com/) - React Datepicker
+- [Chart.js](https://www.chartjs.org) - Chart.js _for charts_
+- [Figma](figma.com/) - Figma _for design_
+
+## ✍️ Authors <a name = "authors"></a>
+- [@henriiqueg](https://github.com/henriiqueg) - Design & Development
+
+## 🎉 Acknowledgements <a name = "acknowledgement"></a>
+- If you want to help in this project, feel free to fork and submit your Pull Request
+- See ya👋
