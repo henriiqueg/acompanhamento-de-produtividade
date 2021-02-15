@@ -9,6 +9,8 @@ const theme = extendTheme({
   },
 });
 
+// TODO add auth with next-auth
+
 const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
   return (
     <ChakraProvider theme={theme}>
