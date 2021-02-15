@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=150px height=100px src="https://avatars.githubusercontent.com/u/68288528?s=200&v=4" alt="Loomi Logo"></a>
+ <img src="https://avatars.githubusercontent.com/u/68288528?s=200&v=4" alt="Loomi Logo"></a>
 </p>
 
 <h3 align="center">Acompanhamento de Produtividade</h3>
