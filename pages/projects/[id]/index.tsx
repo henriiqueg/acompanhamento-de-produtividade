@@ -5,6 +5,9 @@ import Link from 'next/link';
 import Page from 'components/Page';
 import ProductivityCard from 'components/ProductivityCard';
 import ProductivityGraphs from 'components/ProductivityGraphs';
+import AddTask from 'components/AddTask';
+import AddMember from 'components/AddMember';
+import DailyUpdate from 'components/DailyUpdate';
 
 const Project: NextPage = () => {
   const {
@@ -21,7 +24,11 @@ const Project: NextPage = () => {
   return (
     <Page pageTitle={title}>
       <div className="w-screen h-screen bg-project bg-center bg-cover bg-no-repeat">
-        {/* TODO create components for buttons */}
+        <div className="absolute right-16 top-16 flex flex-row gap-8">
+          <AddTask />
+          <AddMember />
+          <DailyUpdate />
+        </div>
         <main className="w-full lg:container px-28 py-16 flex flex-col items-start">
           <Link href="/" passHref>
             <a className="text-white">{'< '}Projetos</a>

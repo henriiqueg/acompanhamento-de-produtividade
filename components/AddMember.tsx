@@ -16,25 +16,25 @@ import {
 } from '@chakra-ui/react';
 import { Formik, Form, Field } from 'formik';
 
-const AddProject: NextPage = () => {
+const AddMember: NextPage = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
 
-  const handleAddProject = (values) => {
-    console.log(values.name);
+  const handleAddMember = (values) => {
+    console.log(values);
   };
 
   return (
     <div
-      className="w-36 h-36 bg-pink-600 rounded-3xl
-                flex items-stretch justify-center font-semibold
-                text-xl text-center italic"
+      className="w-42 bg-white rounded-xl
+                flex items-center justify-center font-semibold
+                text-center italic"
     >
       <button
         type="button"
-        className="w-full flex items-center justify-center p-6 text-6xl text-white font-black"
+        className="w-full flex items-center justify-center px-10 py-4 text-lg text-black font-semibold"
         onClick={onOpen}
       >
-        +
+        Adicionar Membro
       </button>
       <Modal isOpen={isOpen} onClose={onClose} colorScheme="pink" isCentered>
         <ModalOverlay />
@@ -43,11 +43,11 @@ const AddProject: NextPage = () => {
             initialValues={{
               name: '',
             }}
-            onSubmit={handleAddProject}
+            onSubmit={handleAddMember}
           >
             {() => (
               <Form>
-                <ModalHeader>Adicionar Projeto</ModalHeader>
+                <ModalHeader>Adicionar Membro</ModalHeader>
                 <ModalCloseButton />
                 <ModalBody>
                   <Field name="name">
@@ -59,7 +59,7 @@ const AddProject: NextPage = () => {
                         <Input
                           {...field}
                           id="name"
-                          placeholder="Nome do Projeto"
+                          placeholder="Nome do membro"
                         />
                         <FormErrorMessage>{form.errors.name}</FormErrorMessage>
                       </FormControl>
@@ -72,7 +72,7 @@ const AddProject: NextPage = () => {
                     Cancelar
                   </Button>
                   <Button colorScheme="pink" type="submit">
-                    Criar
+                    Adicionar
                   </Button>
                 </ModalFooter>
               </Form>
@@ -84,4 +84,4 @@ const AddProject: NextPage = () => {
   );
 };
 
-export default AddProject;
+export default AddMember;

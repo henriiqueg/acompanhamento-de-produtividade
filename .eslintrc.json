@@ -50,10 +50,12 @@
     "jsx-a11y/anchor-is-valid": "off",
     "@typescript-eslint/interface-name-prefix": "off",
     "@typescript-eslint/ban-ts-ignore": "off",
+    "@typescript-eslint/no-explicit-any": "off",
     // needed for NextJS's jsx without react import
     "react/react-in-jsx-scope": "off",
     "react/jsx-filename-extension": [0, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }],
     "import/extensions": "off",
-    "import/no-unresolved": "off"
+    "import/no-unresolved": "off",
+    "react/require-default-props": "off"
   }
 }
